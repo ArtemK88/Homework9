@@ -22,6 +22,7 @@ public class Main {
         double doubleToString = 3.14;
         String string2 = Double.toString(doubleToString);
         System.out.println(string2);
-
+        System.out.println(Color.RED);
+        System.out.println(Color.RED.getHexCode());
     }
 }
